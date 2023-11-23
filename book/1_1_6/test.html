@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">	
+    <title>Шаблон HTML-документа</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">	
+  </head>
+  <body>
+    <!-- Сюда вставляем HTML-код -->
+	<div class="container bg-warning">
+		<div class="bg-white border">.bg-white</div>
+		<div class="bg-dark text-white">.bg-dark</div>
+		<div class="bg-light">.bg-light</div>
+		<div class="bg-success">.bg-success</div>
+		<div class="bg-info">.bg-info</div>
+		<div class="bg-warning">.bg-warning</div>
+		<div class="bg-danger">.bg-danger</div>
+		<div class="bg-primary">.bg-primary</div>
+		<div class="bg-secondary text-white">.bg-secondary</div>
+		<div class="bg-transparent border">.bg-transparent</div>
+		
+		<!-- Только в Bootstrap 4 -->
+		<div class="container">
+			<p><a href="#" class="bg-dark text-white">.bg-dark</a></p>
+			<p><a href="#" class="bg-light text-dark">.bg-light</a></p>
+			<p><a href="#" class="bg-success text-white">.bg-success</a></p>
+			<p><a href="#" class="bg-info text-white">.bg-info</a></p>
+			<p><a href="#" class="bg-warning text-white">.bg-warning</a></p>
+			<p><a href="#" class="bg-danger text-white">.bg-danger</a></p>
+			<p><a href="#" class="bg-primary text-white">.bg-primary</a></p>
+			<p><a href="#" class="bg-secondary text-white">.bg-secondary</a></p>
+		</div>
+	
+		<!-- Только в Bootstrap 4 -->
+		<div class="container">
+			<button class="bg-dark text-white">.bg-dark</button><br>
+			<button class="bg-light text-dark">.bg-light</button><br>
+			<button class="bg-success text-white">.bg-success</button><br>
+			<button class="bg-info text-white">.bg-info</button><br>
+			<button class="bg-warning text-white">.bg-warning</button><br>
+			<button class="bg-danger text-white">.bg-danger</button><br>
+			<button class="bg-primary text-white">.bg-primary</button><br>
+			<button class="bg-secondary text-white">.bg-secondary</button>
+		</div>
+	
+		<p style="background-color: var(--red)">Текст абзаца1</p>
+		<p style="background-color: var(--success)">Текст абзаца2</p>	
+	
+	</div>	
+	<script src="js/jquery.min.js"></script>	
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script>
+		// Сюда вставляем код на JavaScript
+		console.log('jQuery v' + $.fn.jquery);
+		console.log('Bootstrap v' + $.fn.tooltip.Constructor.VERSION);
+		console.log('Привет, мир!');
+	</script>	
+  </body>
+</html>
