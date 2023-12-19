@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">	
+    <title>Шаблон HTML-документа</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">	
+  </head>
+  <body>
+    <!-- Сюда вставляем HTML-код -->
+
+	<p class="text-body">.text-body color: #212529</p>	
+	<p class="text-white bg-warning">color: #fff</p>
+	<p class="text-white-50 bg-dark">color: rgba(255, 255, 255, 0.5)</p>	
+	<p class="text-black-50">color: rgba(0, 0, 0, 0.5)</p>
+	<p class="text-dark">.text-dark color: #343a40</p>
+	<p class="text-muted">.text-muted color: #6c757d</p>
+	<p class="text-light bg-dark">.text-light color: #f8f9fa</p>
+	<p class="text-success">.text-success color: #28a745</p>
+	<p class="text-info">.text-info color: #17a2b8</p>
+	<p class="text-warning">.text-warning color: #ffc107</p>
+	<p class="text-danger">.text-danger color: #dc3545</p>
+	
+	<!-- Только в Bootstrap 4 -->
+	<div class="container">
+		<p><a href="#" class="text-dark">.text-dark</a></p>
+		<p><a href="#" class="text-light bg-dark">.text-light</a></p>
+		<p><a href="#" class="text-success">.text-success</a></p>
+		<p><a href="#" class="text-info">.text-info</a></p>
+		<p><a href="#" class="text-warning">.text-warning</a></p>
+		<p><a href="#" class="text-danger">.text-danger</a></p>
+		<p><a href="#" class="text-primary">.text-primary</a></p>
+		<p><a href="#" class="text-secondary">.text-secondary</a></p>
+	</div>	
+
+	<!-- Только в Bootstrap 4 -->
+	<p style="color: var(--red)">Текст абзаца1</p>
+	<p style="color: var(--success)">Текст абзаца2</p>
+
+	<!-- Только в Bootstrap 4 -->
+	<p>Слово1 <span class="text-hide">слово2</span> слово3</p>
+
+	<script src="js/jquery.min.js"></script>	
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script>
+		// Сюда вставляем код на JavaScript
+		console.log('jQuery v' + $.fn.jquery);
+		console.log('Bootstrap v' + $.fn.tooltip.Constructor.VERSION);
+		console.log('Привет, мир!');
+	</script>	
+  </body>
+</html>
